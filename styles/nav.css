@@ -1,0 +1,49 @@
+nav {
+    margin: 0px 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-link {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .main-links > .nav-link a {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav > .main-links > .nav-link a:hover {
+    letter-spacing: 0.1em;
+}
+
+
+.gradient-button a {
+    background-image: linear-gradient(-60deg, #0487D9, #55C2A3, #FFC363, #EE05F2);
+    background-size: 320px 320px;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-position 0.7s ease;
+}
+    
+.gradient-button a:hover {
+    background-position: right center;
+}
