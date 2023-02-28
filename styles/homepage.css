@@ -1,7 +1,7 @@
 /*header thing styles*/
 .home-header {
     margin: 0px 120px;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,5 +21,14 @@
 
 /*main styles*/
 .homepage-main {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-main > .text-wrapper {
+    width: 70%;
+    min-width: 400px;
+    text-align: center
 }
