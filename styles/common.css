@@ -2,3 +2,20 @@ body {
     background-color: #202020;
     color: white;
 }
+
+h1 {
+    color: white;
+    size: 36pt;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+}
+
+p {
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
