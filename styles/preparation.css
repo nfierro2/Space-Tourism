@@ -8,6 +8,7 @@ body{
     margin:;
 }
 .skewed-header .header-bg{
+    background-image: url('../resources/images/rainbow-planet1000px.jpg');
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -20,10 +21,14 @@ body{
 	transform: skewY(6deg);
     transform-origin: top right;
 	filter:brightness(50%);
+    z-index: -1;
 }
 .content{
     margin: 0 10% 0 10%;
 }
 .content ul{
     list-style-type: circle;
+}
+a{
+    color:aquamarine;
 }
