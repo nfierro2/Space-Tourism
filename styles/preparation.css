@@ -1,28 +1,4 @@
-body{
-    margin:0;
-}
-.skewed-header{
-	position:relative;
-	height: 400px;
-	overflow: hidden;
-    margin:;
-}
-.skewed-header .header-bg{
-    background-image: url('../resources/images/rainbow-planet1000px.jpg');
-	position:absolute;
-	top:0;
-	bottom:0;
-	right:0;
-	left:0;
-	height: 100%;
-	width:100%;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	transform: skewY(6deg);
-    transform-origin: top right;
-	filter:brightness(50%);
-    z-index: -1;
-}
+
 .content{
     margin: 0 10% 0 10%;
 }
@@ -31,4 +7,12 @@ body{
 }
 a{
     color:aquamarine;
+}
+fieldset{
+    display:flex;
+    justify-content: space-between;
+
+}
+fieldset .image{
+    padding:10px;
 }
