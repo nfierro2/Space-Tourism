@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+.skewed-header{
+	position:relative;
+	height: 400px;
+	overflow: hidden;
+    margin:;
+}
+.skewed-header .header-bg{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform: skewY(6deg);
+    transform-origin: top right;
+	filter:brightness(50%);
+}
+.content{
+    margin: 0 10% 0 10%;
+}
+.content ul{
+    list-style-type: circle;
+}
