@@ -8,9 +8,9 @@
     justify-content: space-evenly;
 }
 
-.home-header > .home-h1 {
+.home-header > .home-h1 h1 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 36pt;
+    font-size: 5.5em;
 }
 
 .home-header > .text-wrapper {
