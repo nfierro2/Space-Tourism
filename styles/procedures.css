@@ -1,0 +1,8 @@
+.wrapper {
+    font-family: 'Space Mono', monospace;
+}
+
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover {
+    background-color: violet;
+}
