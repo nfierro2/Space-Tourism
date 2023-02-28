@@ -1,0 +1,25 @@
+/*header thing styles*/
+.home-header {
+    margin: 0px 120px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home-header > .home-h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36pt;
+}
+
+.home-header > .text-wrapper {
+    font-family: 'Space Mono', monospace;
+    margin-top: -100px;
+    width: 50%;
+    min-width: 400px;
+}
+
+/*main styles*/
+.homepage-main {
+    
+}
