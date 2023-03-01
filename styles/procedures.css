@@ -6,3 +6,9 @@
 .nav-pills>.active>a:hover {
     background-color: violet;
 }
+
+#launch, #recovery > h4 {
+    color: white;
+	font-family: 'Orbitron', sans-serif;
+    font-size: 18pt;
+}

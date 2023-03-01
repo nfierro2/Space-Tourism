@@ -6,17 +6,26 @@ body {
 
 h1 {
     color: white;
-    size: 5.5em;
+    size: 48pt;
     font-family: 'Orbitron', sans-serif;
 }
 
 h2 {
     color: white;
     font-family: 'Orbitron', sans-serif;
-    font-size: 2em;
+    font-size: 36pt;
 }
 
+h4 {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+    font-size: 18pt;
+}
 
+p {
+	font-family: 'Space Mono', monospace;
+	font-size: 12pt;
+}
 /**header made from devcamp**/
 .skewed-header{
 	position:relative;
@@ -39,4 +48,12 @@ h2 {
     transform-origin: top right;
 	filter:brightness(50%);
     z-index: -1;
+}
+
+.spacer20 {
+	height: 20px;
+}
+
+.spacer7 {
+	height: 7px;
 }

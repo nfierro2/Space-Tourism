@@ -11,6 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 50%;
+
 }
 
 .nav-link {
@@ -24,11 +25,12 @@ nav > .main-links > .nav-link a {
     font-family: 'Space Mono', monospace;
     color: white;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.3s;    
+    font-size: 12pt;
 }
 
 nav > .main-links > .nav-link a:hover {
-    letter-spacing: 0.1em;
+    letter-spacing: 2px;
 }
 
 
