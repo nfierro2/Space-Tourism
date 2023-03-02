@@ -1,0 +1,6 @@
+body {
+    background-image: url(../resources/images/astronaut-background.png);
+    background-repeat: no-repeat;
+    background-position: top 70px right 100px;
+    background-size: 90vh;
+}
