@@ -1,0 +1,23 @@
+footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .left-column {
+}
+
+footer > .center-column {
+
+
+}
+
+footer > .right-column {
+
+    
+}
+
+#home-footer {
+    background-color: black;
+}
