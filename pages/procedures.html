@@ -34,6 +34,7 @@
   <link href="../styles/common.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/nav.css">
   <link rel="stylesheet" href="../styles/procedures.css">
+  <link rel="stylesheet" href="../styles/forms.css">
 </head>
 
 <body>
@@ -152,6 +153,8 @@
   <br>
   <br>
   <br>
+  <br>
+  <br>
 
   <div class="container-fluid">
     <div class="jumbotron" style="background-image: linear-gradient(#202020, #3f3f3f, #202020);">
@@ -165,6 +168,34 @@
         </p>
     </div>
   </div>
+
+  <div class="container">
+    <h4 style="text-align: center;">Safety Suggestion Form</h4>
+    <form action="/action.php">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name"
+          style="border: 2px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #3f3f3f; color: white;"
+          placeholder="Enter name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email"
+          style="border: 2px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #3f3f3f; color: white;"
+          placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="condition">Description of potentially unsafe conditions that will you prevent you from
+          travelling</label>
+        <textarea type="condition" class="form-control" id="condition"
+          style="border: 2px solid #ccc; border-radius: 4px; border-radius: 2px; box-sizing: border-box; background-color: #3f3f3f; color: white;"
+          name="condition"></textarea>
+      </div>
+      <button type="submit" class="btn btn-lg"
+        style="transition-duration: 0.4s; border-radius: 4px; background-color: #EE05F2; color: white; justify-content: center;">Submit</button>
+    </form>
+  </div>
+
   <footer class="py-4 mt-4">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item">
