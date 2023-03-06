@@ -33,8 +33,6 @@
 
   <link href="../styles/common.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/nav.css">
-  <link rel="stylesheet" href="../styles/procedures.css">
-  <link rel="stylesheet" href="../styles/forms.css">
 
   <style>
     .btn {
@@ -51,61 +49,60 @@
 </head>
 
 <body>
-  <nav>
-    <div class="main-links">
-      <a href="../index.html">
-        <div class="nav-button">
-          Home
+  <div class="skewed-header">
+    <div class="header-bg"></div>
+    <nav>
+      <div class="main-links">
+        <a href="../index.html">
+          <div class="nav-button">
+            Home
+          </div>
+        </a>
+
+        <a href="preparation.html">
+          <div class="nav-button">
+            Preparation
+          </div>
+        </a>
+
+        <a href="vehicles.html">
+          <div class="nav-button">
+            Vehicles
+          </div>
+        </a>
+
+        <a href="procedures.html">
+          <div id="active-tab" class="nav-button">
+            Procedures
+          </div>
+        </a>
+
+        <a href="pricing.html">
+          <div class="nav-button">
+            Pricing
+          </div>
+        </a>
+
+        <a href="sources.html">
+          <div class="nav-button">
+            Sources
+          </div>
+        </a>
+      </div>
+
+      <div class="gradient-button">
+        <a href="pricing.html">Book Now</a>
+      </div>
+    </nav>
+    <div class="spacer7"></div>
+    <div class="text-center d-flex align-items-start justify-content-center mt-2" style="height: 175px;">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-white" style="font-family: 'Orbitron', sans-serif; font-size: 30pt;">
+          <h2>Procedures</h2>
+          <h4>Learn what it takes to go to space</h4>
         </div>
-      </a>
-
-      <a href="preparation.html">
-        <div class="nav-button">
-          Preparation
-        </div>
-      </a>
-
-      <a href="vehicles.html">
-        <div class="nav-button">
-          Vehicles
-        </div>
-      </a>
-
-      <a href="procedures.html">
-        <div id="active-tab" class="nav-button">
-          Procedures
-        </div>
-      </a>
-
-      <a href="pricing.html">
-        <div class="nav-button">
-          Pricing
-        </div>
-      </a>
-
-      <a href="sources.html">
-        <div class="nav-button">
-          Sources
-        </div>
-      </a>
-    </div>
-
-    <div class="gradient-button">
-      <a href="pricing.html">Book Now</a>
-    </div>
-  </nav>
-
-  <br>
-
-  <div class="spacer7"></div>
-  <div class="text-center d-flex align-items-start justify-content-center mt-2" style="height: 175px;">
-    <div class="d-flex justify-content-center align-items-center">
-      <div class="text-white" style="font-family: 'Orbitron', sans-serif; font-size: 30pt;">
-        <h2>Procedures</h2>
-        <h4>Learn what it takes to go to space</h4>
       </div>
     </div>
-  </div>
   </div>
 
   <br>
@@ -215,14 +212,20 @@
           placeholder="Enter email" name="email">
       </div>
       <div class="form-group">
+        <label for="Age" style="font-family: 'Space Mono', monospace;">Date of Birth</label>
+        <input type="age" class="form-control" id="age"
+          style="border: 2px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #3f3f3f; color: white;"
+          placeholder="MM/DD/YYYY" name="Age">
+      </div>
+      <div class="form-group">
         <label for="condition" style="font-family: 'Space Mono', monospace;">Description of potentially unsafe
-          conditions that will you prevent you from
+          conditions that may you prevent you from
           travelling</label>
         <textarea type="condition" class="form-control" id="condition"
           style="border: 2px solid #ccc; border-radius: 4px; border-radius: 2px; box-sizing: border-box; background-color: #3f3f3f; color: white;"
           name="condition" placeholder="Describe conditions" name="condition"></textarea>
       </div>
-      <button type="submit" class="btn btn-lg">Submit</button>
+      <button type="submit" class="btn btn-lg center-block">Submit</button>
     </form>
   </div>
   </div>
