@@ -1,7 +1,7 @@
 nav {
-    width: 100vh;
     margin: 0px 100px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
     height: 70px;
 }
@@ -11,15 +11,10 @@ nav {
     align-items: flex-end;
 }
 
-.nav-tabs {
-    width: 40%;
-    display: flex;
-}
-
 .nav-button {
     border: 1px solid white;
-    width: 100px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
     margin: 1px;
     display: flex;
     align-items: center;
@@ -30,6 +25,7 @@ nav {
     border-bottom-right-radius: 2px;
     transition: 0.3s;
 }
+
 
 nav a:link {
     text-decoration: none;
@@ -42,7 +38,9 @@ nav a:link {
     color: #202020;
     border: 1px solid white;
     border-bottom: 0px;
-    height: 55px;
+    height: 50px;
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 2px rgba(300, 300, 300, 100);
 }
 
 nav a:visited {
@@ -71,5 +69,7 @@ nav a:visited {
     color: #202020;
     border: 1px solid white;
     border-bottom: 0px;
-    height: 60px; 
+    height: 47px; 
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 2px rgba(300, 300, 300, 100);
 }
