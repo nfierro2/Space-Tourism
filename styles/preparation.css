@@ -8,11 +8,32 @@
 a{
     color:aquamarine;
 }
-fieldset{
-    display:flex;
-    justify-content: space-between;
 
+
+/*square grids from DevCamp*/
+.squares-wrapper{
+	display: flex;
+	justify-content: center;
 }
-fieldset .image{
-    padding:10px;
+.squares-wrapper > .squares{
+	width:1000px;
+    margin:0;
 }
+.squares-wrapper > .squares > .square{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: -4px;
+}
+.square > .img-wrapper img{
+	width:500px;
+	height:100%;
+	object-fit: cover;
+}
+.square > .square-text-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding:42px;
+}
+
