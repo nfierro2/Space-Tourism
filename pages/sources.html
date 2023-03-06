@@ -21,8 +21,26 @@
             .main{
                 margin:0 10%;
             }
+            ul{
+              list-style-type:none;
+              
+            }
+            ul a{
+              color:white;
+              text-decoration: none;
+            }
+            
+            main .images {
+              vertical-align:middle;
+              display:flex;
+              justify-content: space-between;
+              flex-wrap:wrap;
+              padding: 15px;
+              max-width: 600px;
+            }
         </style>
-       <!-- bootstrap is overwriting common body styles-->
+      
+    
        <link rel="stylesheet" href="../styles/sources.css">
        <link href="../styles/common.css" rel="stylesheet">
         <link rel="stylesheet" href="../styles/nav.css">
@@ -32,31 +50,47 @@
       <div class="header-bg" ></div>
       <nav>
         <div class="main-links">
-          <div class="nav-link">
-            <a href="../index.html">Home</a>
-          </div>
-          <div class="nav-link">
-            <a href="pricing.html">Pricing</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="preparation.html">Preparation</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="Procedures.html">Procedures</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="sources.html">Sources</a>
-          </div>
-          
+          <a href="../index.html">
+              <div class="nav-button">
+                  Home
+              </div>
+          </a>
+  
+          <a href="preparation.html">
+              <div class="nav-button">
+                  Preparation
+              </div>
+          </a>
+  
+          <a href="vehicles.html">
+              <div class="nav-button">
+                  Vehicles
+              </div>
+          </a>
+  
+          <a href="procedures.html">
+            <div class="nav-button">
+              Procedures
+            </div>
+          </a>
+  
+          <a href="pricing.html">
+              <div  class="nav-button">
+                  Pricing
+              </div>
+          </a>
+  
+          <a href="sources.html">
+            <div  id="active-tab" class="nav-button">
+                Sources
+            </div>
+        </a>
         </div>
-
+  
         <div class="gradient-button">
           <a href="pricing.html">Book Now</a>
         </div>
-      </nav> 
+      </nav>
       <div class="spacer20"></div>
       <div class="text-center d-flex align-items-start justify-content-center mt-2" style="height: 175px;">
             <div class="d-flex justify-content-center align-items-center">
@@ -72,20 +106,29 @@
        <p><a href="https://docs.google.com/document/d/1jmDpAGW_D2nIKmcwBjTa9lB4EO-ax2xU_A-8qf9lsXk/edit?usp=sharing" target="_blank">Envato Elements License</a></p>
         
        <div class="images">
-        <a href="https://elements.envato.com/cinematic-image-of-an-astronaut-U4W8QSG" target="_blank"><img src="../resources/images/facing-astronaut100px.jpg" alt="Cinematic image of astronaut facing"></a>
-        <a href="https://elements.envato.com/cinematic-image-of-an-astronaut-WU2ZGA6" target="_blank"><img src="../resources/images/astronaut-looking-down100px.jpg" alt="Cinematic image of astronaut looking down"></a>
-        <a href="https://elements.envato.com/cinematic-image-of-an-astronaut-P3Z49YK" target="_blank"><img src="../resources/images/astronaut-closeup100px.jpg" alt="Cinematic image of astronaut closeup"></a>
-        <a href="https://elements.envato.com/abstract-background-made-from-soap-bubble-reflecti-ZX9GQSW" target="_blank"><img src="../resources/images/rainbow-planet100px.jpg" alt="Rainbow planet"></a>
-        <a href="https://elements.envato.com/space-shuttle-orbiting-the-earth-elements-of-this--4UTRS9N" target="_blank"><img src="../resources/images/shuttle-orbiting100px.jpg" alt="Shuttle orbiting"></a>
-        <a href="https://elements.envato.com/hotel-BJLR4P5" target="_blank"><img src="../resources/images/standard-room100px.jpg" alt="Standard room"></a>
-        <a href="https://elements.envato.com/interior-of-futuristic-capsule-hotel-inside-capsul-DBUPRJV" target="_blank"><img src="../resources/images/deluxe-room100px.jpg" alt="Deluxe room"></a>
-        <a href="https://elements.envato.com/modern-small-apartment-PEYSD6X" target="_blank"><img src="../resources/images/luxury-room100px.jpg" alt="Luxury room"></a>
-        <a href="https://elements.envato.com/modern-bright-empty-interior-PDP4E73" target="_blank"><img src="../resources/images/royal-room100px.jpg" alt="Royal room"></a>
-        <a href="" target="_blank"><img src="../resources/images/Meal-Plan-1-100px.jpg" alt="Meal plan 1"></a>
-        <a href="" target="_blank"><img src="../resources/images/Meal-Plan-2-100px.jpg" alt="Meal plan 2"></a>
-        <a href="" target="_blank"><img src="../resources/images/Meal-Plan-3-100px.jpg" alt="Meal plan 3"></a>
-        <a href="" target="_blank"><img src="../resources/images/Meal-Plan-4-100px.jpg" alt="Meal plan 4"></a>
+        <div class="img"><a href="https://elements.envato.com/cinematic-image-of-an-astronaut-U4W8QSG" target="_blank"><img src="../resources/images/facing-astronaut100px.jpg" alt="Cinematic image of astronaut facing"></a></div>
+        <div class="img"><a href="https://elements.envato.com/cinematic-image-of-an-astronaut-WU2ZGA6" target="_blank"><img src="../resources/images/astronaut-looking-down100px.jpg" alt="Cinematic image of astronaut looking down"></a></div>
+        <div class="img"><a href="https://elements.envato.com/cinematic-image-of-an-astronaut-P3Z49YK" target="_blank"><img src="../resources/images/astronaut-closeup100px.jpg" alt="Cinematic image of astronaut closeup"></a></div>
+        <div class="img"><a href="https://elements.envato.com/abstract-background-made-from-soap-bubble-reflecti-ZX9GQSW" target="_blank"><img src="../resources/images/rainbow-planet100px.jpg" alt="Rainbow planet"></a></div>
+        <div class="img"><a href="https://elements.envato.com/space-shuttle-orbiting-the-earth-elements-of-this--4UTRS9N" target="_blank"><img src="../resources/images/shuttle-orbiting100px.jpg" alt="Shuttle orbiting"></a></div>
+        <div class="img"><a href="https://elements.envato.com/hotel-BJLR4P5" target="_blank"><img src="../resources/images/standard-room100px.jpg" alt="Standard room"></a></div>
+        <div class="img"><a href="https://elements.envato.com/interior-of-futuristic-capsule-hotel-inside-capsul-DBUPRJV" target="_blank"><img src="../resources/images/deluxe-room100px.jpg" alt="Deluxe room"></a></div>
+        <div class="img"><a href="https://elements.envato.com/modern-small-apartment-PEYSD6X" target="_blank"><img src="../resources/images/luxury-room100px.jpg" alt="Luxury room"></a></div>
+        <div class="img"><a href="https://elements.envato.com/modern-bright-empty-interior-PDP4E73" target="_blank"><img src="../resources/images/royal-room100px.jpg" alt="Royal room"></a></div>
+        <div class="img"><a href="" target="_blank"><img src="../resources/images/Meal-Plan-1-100px.jpg" alt="Meal plan 1"></a></div>
+        <div class="img"><a href="" target="_blank"><img src="../resources/images/Meal-Plan-2-100px.jpg" alt="Meal plan 2"></a></div>
+        <div class="img"><a href="" target="_blank"><img src="../resources/images/Meal-Plan-3-100px.jpg" alt="Meal plan 3"></a></div>
+        <div class="img"><a href="" target="_blank"><img src="../resources/images/Meal-Plan-4-100px.jpg" alt="Meal plan 4"></a></div>
        </div>
+       <br>
+       <h1>Fonts</h1>
+       <p><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
+       <ul>
+        <li style="font-family: 'Orbitron';"><a href="https://fonts.google.com/specimen/Orbitron?query=orbitron" target="_blank">Orbitron</a></li>
+        <li style="font-family: 'Space Mono';"><a href="https://fonts.google.com/specimen/Space+Mono?query=space+mono" target="_blank">Space Mono</a></li>
+       </ul>
+       <br>
+       <p><a href="../resources/images/copyright-checklist.pdf" >Copyright Checklist</a></p>
       </main>
 
         

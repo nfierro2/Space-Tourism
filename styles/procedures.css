@@ -1,14 +1,11 @@
-.wrapper {
-    font-family: 'Space Mono', monospace;
-}
-
 .nav-pills>.active>a,
 .nav-pills>.active>a:hover {
     background-color: violet;
 }
 
-#launch, #recovery > h4 {
+#launch,
+#recovery>h4 {
     color: white;
-	font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 18pt;
 }
