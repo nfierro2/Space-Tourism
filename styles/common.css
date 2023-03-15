@@ -1,0 +1,63 @@
+body {
+    background-color: #202020;
+    color: white;
+    margin:0;
+}
+
+h1 {
+    color: white;
+    size: 48pt;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36pt;
+}
+
+h4 {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+    font-size: 18pt;
+}
+
+p {
+	font-family: 'Space Mono', monospace;
+	font-size: 12pt;
+}
+/**header made from devcamp**/
+.skewed-header{
+	position:relative;
+	height: 400px;
+	overflow: hidden;
+    
+}
+.skewed-header .header-bg{
+    background-image: url('../resources/images/rainbow-planet1000px.jpg');
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform: skewY(6deg);
+    transform-origin: top right;
+	filter:brightness(50%);
+    z-index: -1;
+}
+
+.spacer20 {
+	height: 20px;
+}
+
+.spacer7 {
+	height: 7px;
+}
+
+.spacer30 {
+	height: 30px;
+}

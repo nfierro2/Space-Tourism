@@ -1,0 +1,39 @@
+
+.content{
+    margin: 0 10% 0 10%;
+}
+.content ul{
+    list-style-type: circle;
+}
+a{
+    color:aquamarine;
+}
+
+
+/*square grids from DevCamp*/
+.squares-wrapper{
+	display: flex;
+	justify-content: center;
+}
+.squares-wrapper > .squares{
+	width:1000px;
+    margin:0;
+}
+.squares-wrapper > .squares > .square{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: -4px;
+}
+.square > .img-wrapper img{
+	width:500px;
+	height:100%;
+	object-fit: cover;
+}
+.square > .square-text-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding:42px;
+}
+
